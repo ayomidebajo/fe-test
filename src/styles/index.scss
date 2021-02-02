@@ -1,8 +1,20 @@
 @import "./navbar.scss";
+@import "./dashboard.scss";
+@import "cards-top.scss";
+@import "./cards-side-left.scss";
 
 * {
   box-sizing: border-box;
   overflow: hidden;
   margin: 0;
   padding: 0;
+  // background: #f7f8fa;
+}
+
+.grey {
+  color: #9696a0;
+}
+
+.bold {
+  font-weight: 700;
 }
