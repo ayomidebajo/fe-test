@@ -18,15 +18,15 @@
 
 .list-title {
   display: flex;
-  height: 55px;
+  height: 60px;
   align-items: center;
-  justify-content: space-between;
-  width: 200px;
+  // justify-content: space-evenly;
+  max-width: 170px;
+  font-weight: 500;
 }
 
 .list-item_card-left {
   display: flex;
-  //   width: 200px;
   align-items: center;
   height: 36px;
   text-align: center;
@@ -37,14 +37,14 @@
 }
 
 .icon-list_title {
-  width: 46px;
+  width: 49px;
   text-align: center;
 }
 
 .cards-botton_left--container {
   width: 255px;
   height: 280px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .dot {
@@ -75,6 +75,7 @@
 
 .left-cards--container {
   width: 300px;
+  font-size: 14px;
 }
 
 .list-history {
