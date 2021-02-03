@@ -96,7 +96,7 @@ const CardTable = () => {
                 <span className="grey small-text">Homogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg green">
+                <p className="entries text-reg green risk">
                   <span className="arrow ">
                     <svg
                       width="20"
@@ -198,8 +198,8 @@ const CardTable = () => {
                 <span className="grey small-text">Heterogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg blue">
-                  <span className="arrow ">
+                <p className="entries text-reg blue risk">
+                  <span className="arrow anormal">
                     <svg
                       width="30"
                       height="30"
@@ -313,8 +313,8 @@ const CardTable = () => {
                 <span className="grey small-text">Homogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg blue">
-                  <span className="arrow ">
+                <p className="entries text-reg blue risk">
+                  <span className="arrow anormal">
                     <svg
                       width="30"
                       height="30"
@@ -428,7 +428,7 @@ const CardTable = () => {
                 <span className="grey small-text">Heterogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg red">
+                <p className="entries text-reg red risk">
                   <span className="arrow">
                     <svg
                       width="16"
@@ -531,7 +531,7 @@ const CardTable = () => {
                 <span className="grey small-text">Heterogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg green">
+                <p className="entries text-reg green risk">
                   <span className="arrow">
                     <svg
                       width="20"
@@ -634,7 +634,7 @@ const CardTable = () => {
                 <span className="grey small-text">Homogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg red">
+                <p className="entries text-reg red risk">
                   <span className="arrow">
                     <svg
                       width="16"
@@ -737,8 +737,8 @@ const CardTable = () => {
                 <span className="grey small-text">Homogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg blue">
-                  <span className="arrow ">
+                <p className="entries text-reg blue risk">
+                  <span className="arrow anormal">
                     <svg
                       width="30"
                       height="30"
@@ -852,7 +852,7 @@ const CardTable = () => {
                 <span className="grey small-text">Homogenous</span>
               </td>
               <td class="table-cell last-col ">
-                <p className="text-reg entries green">
+                <p className="text-reg entries green risk">
                   <span className="arrow ">
                     <svg
                       width="20"

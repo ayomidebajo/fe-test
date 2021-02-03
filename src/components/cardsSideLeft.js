@@ -115,7 +115,7 @@ const CardsSideLeft = () => {
             </span>
             Mojidi, Lagos
           </li>
-          <li className="list-item_card-left">
+          <li className="list-item_card-left underline-blue">
             <span className="list-item_icon">
               <svg
                 width="18"
@@ -296,9 +296,9 @@ const CardsSideLeft = () => {
                 Searched "Journal Entries" on Division module
               </p>
               <span className="bluegrey"></span>
-              <p className="text bluegrey">
+              <p className="text entries bluegrey date">
                 22:10 15/09/2020
-                <span className="dot-blue">*</span>
+                <div className="dot-blue"></div>
                 Web
               </p>
             </li>
@@ -307,9 +307,9 @@ const CardsSideLeft = () => {
                 Searched "Journal Entries" on Division module
               </p>
               <span className="bluegrey"></span>
-              <p className="text bluegrey">
+              <p className="text entries bluegrey date">
                 22:10 15/09/2020
-                <span className="dot-blue">*</span>
+                <div className="dot-blue"></div>
                 Web
               </p>
             </li>
@@ -318,9 +318,9 @@ const CardsSideLeft = () => {
                 Searched "Journal Entries" on Division module
               </p>
               <span className="bluegrey"></span>
-              <p className="text bluegrey">
+              <p className="text entries bluegrey date">
                 22:10 15/09/2020
-                <span className="dot-blue">*</span>
+                <div className="dot-blue"></div>
                 Web
               </p>
             </li>

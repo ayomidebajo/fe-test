@@ -36,7 +36,8 @@ td {
 
 .table-cell {
   width: 300px;
-  padding: 1.13rem;
+  padding: 1rem;
+  line-height: 1.5;
 }
 .table-cell-head {
   width: 300px;
@@ -148,10 +149,14 @@ td {
   align-items: center;
 }
 
-.arrow {
-  margin-right: 3px;
-}
-
 .capitalize {
   text-transform: capitalize;
+}
+
+.risk {
+  width: 120px;
+}
+
+.arrow {
+  width: 30%;
 }

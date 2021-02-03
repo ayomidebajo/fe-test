@@ -43,7 +43,7 @@
 
 .cards-botton_left--container {
   width: 255px;
-  height: 251px;
+  height: 280px;
   margin-top: 40px;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .dashed {
-  height: 63px;
+  height: 76px;
   border-left: 1px dotted #707070;
 }
 
@@ -84,10 +84,28 @@
 
 .history {
   margin-left: 10px;
-  height: 70px;
+  height: 83px;
   line-height: 1.4;
 }
 
 .bluegrey {
   color: #a1aace;
+}
+
+.dot-blue {
+  width: 4px;
+  border-radius: 50%;
+  height: 4px;
+  background: #a1aace;
+}
+
+.date {
+  width: 60%;
+  justify-content: space-between;
+}
+
+.underline-blue {
+  text-decoration: underline;
+  color: #5771ee;
+  cursor: pointer;
 }
