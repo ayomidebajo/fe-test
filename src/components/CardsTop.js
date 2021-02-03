@@ -18,8 +18,8 @@ const CardsTop = () => {
       <div className="card">
         <div className="inner-card">
           <div className="metric">
-            <h1 className="h1-bold">31454</h1>
-            <p className="text grey bold">Ongoing metric</p>
+            <h1 className="h1-bold">2344</h1>
+            <p className="text grey bold">Past metric</p>
           </div>
 
           <div className="round-circle">
@@ -30,8 +30,8 @@ const CardsTop = () => {
       <div className="card">
         <div className="inner-card">
           <div className="metric">
-            <h1 className="h1-bold">31454</h1>
-            <p className="text grey bold">Ongoing metric</p>
+            <h1 className="h1-bold">14224</h1>
+            <p className="text grey bold">Missed metric</p>
           </div>
 
           <div className="round-circle">
@@ -42,8 +42,8 @@ const CardsTop = () => {
       <div className="card">
         <div className="inner-card">
           <div className="metric">
-            <h1 className="h1-bold">31454</h1>
-            <p className="text grey bold">Ongoing metric</p>
+            <h1 className="h1-bold">635</h1>
+            <p className="text grey bold">Failed metric</p>
           </div>
 
           <div className="round-circle">
@@ -54,8 +54,8 @@ const CardsTop = () => {
       <div className="card">
         <div className="inner-card">
           <div className="metric">
-            <h1 className="h1-bold">31454</h1>
-            <p className="text grey bold">Ongoing metric</p>
+            <h1 className="h1-bold">11334</h1>
+            <p className="text grey bold">Pending metric</p>
           </div>
 
           <div className="round-circle">

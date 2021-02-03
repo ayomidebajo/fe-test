@@ -79,9 +79,11 @@ const CardTable = () => {
                 </span>
               </td>
 
-              <td class="table-cell text-reg">courtney henry</td>
+              <td class="table-cell text-reg capitalize md-bold">
+                courtney henry
+              </td>
               <td class="table-cell">
-                <p className="state">Lagos state</p>
+                <p className="state md-bold">Lagos state</p>
                 <span className="grey small-text">775 Rolling Green Rd</span>
               </td>
               <td class="table-cell">
@@ -94,8 +96,8 @@ const CardTable = () => {
                 <span className="grey small-text">Homogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg">
-                  <span className="arrow green">
+                <p className="entries text-reg green">
+                  <span className="arrow ">
                     <svg
                       width="20"
                       height="20"
@@ -179,9 +181,11 @@ const CardTable = () => {
                 </span>
               </td>
 
-              <td class="table-cell text-reg">darrel steward</td>
+              <td class="table-cell text-reg capitalize md-bold ">
+                darrel steward
+              </td>
               <td class="table-cell">
-                <p className="state">Lagos state</p>
+                <p className="state md-bold ">Lagos state</p>
                 <span className="grey small-text">7529 E. Pecan St.</span>
               </td>
               <td class="table-cell">
@@ -194,8 +198,8 @@ const CardTable = () => {
                 <span className="grey small-text">Heterogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg">
-                  <span className="arrow green">
+                <p className="entries text-reg blue">
+                  <span className="arrow ">
                     <svg
                       width="30"
                       height="30"
@@ -292,9 +296,11 @@ const CardTable = () => {
                 </span>
               </td>
 
-              <td class="table-cell text-reg">Cody Fisher</td>
+              <td class="table-cell text-reg capitalize md-bold">
+                Cody Fisher
+              </td>
               <td class="table-cell">
-                <p className="state">Lagos state</p>
+                <p className="state md-bold ">Lagos state</p>
                 <span className="grey small-text">3605 Parker Rd.</span>
               </td>
               <td class="table-cell">
@@ -307,8 +313,8 @@ const CardTable = () => {
                 <span className="grey small-text">Homogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg">
-                  <span className="arrow green">
+                <p className="entries text-reg blue">
+                  <span className="arrow ">
                     <svg
                       width="30"
                       height="30"
@@ -405,9 +411,11 @@ const CardTable = () => {
                 </span>
               </td>
 
-              <td class="table-cell text-reg">Bessie Cooper</td>
+              <td class="table-cell text-reg capitalize md-bold ">
+                Bessie Cooper
+              </td>
               <td class="table-cell">
-                <p className="state">Lagos state</p>
+                <p className="state md-bold ">Lagos state</p>
                 <span className="grey small-text">775 Rolling Green Rd</span>
               </td>
               <td class="table-cell">
@@ -420,8 +428,8 @@ const CardTable = () => {
                 <span className="grey small-text">Heterogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg">
-                  <span className="arrow green">
+                <p className="entries text-reg red">
+                  <span className="arrow">
                     <svg
                       width="16"
                       height="16"
@@ -506,9 +514,11 @@ const CardTable = () => {
                 </span>
               </td>
 
-              <td class="table-cell text-reg">Annette Black</td>
+              <td class="table-cell text-reg capitalize md-bold ">
+                Annette Black
+              </td>
               <td class="table-cell">
-                <p className="state">Lagos state</p>
+                <p className="state md-bold ">Lagos state</p>
                 <span className="grey small-text">8080 Railroad St.</span>
               </td>
               <td class="table-cell">
@@ -521,8 +531,8 @@ const CardTable = () => {
                 <span className="grey small-text">Heterogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg">
-                  <span className="arrow green">
+                <p className="entries text-reg green">
+                  <span className="arrow">
                     <svg
                       width="20"
                       height="20"
@@ -607,9 +617,11 @@ const CardTable = () => {
                 </span>
               </td>
 
-              <td class="table-cell text-reg">Jenny Wilson</td>
+              <td class="table-cell text-reg capitalize md-bold ">
+                Jenny Wilson
+              </td>
               <td class="table-cell">
-                <p className="state">Lagos state</p>
+                <p className="state md-bold ">Lagos state</p>
                 <span className="grey small-text">8080 Railroad St.</span>
               </td>
               <td class="table-cell">
@@ -622,8 +634,8 @@ const CardTable = () => {
                 <span className="grey small-text">Homogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg">
-                  <span className="arrow green">
+                <p className="entries text-reg red">
+                  <span className="arrow">
                     <svg
                       width="16"
                       height="16"
@@ -708,9 +720,11 @@ const CardTable = () => {
                 </span>
               </td>
 
-              <td class="table-cell text-reg">Darlene Robertson</td>
+              <td class="table-cell text-reg capitalize md-bold ">
+                Darlene Robertson
+              </td>
               <td class="table-cell">
-                <p className="state">Lagos state</p>
+                <p className="state md-bold ">Lagos state</p>
                 <span className="grey small-text">3890 Poplar Dr.</span>
               </td>
               <td class="table-cell">
@@ -723,8 +737,8 @@ const CardTable = () => {
                 <span className="grey small-text">Homogenous</span>
               </td>
               <td class="table-cell last-col">
-                <p className="entries text-reg">
-                  <span className="arrow green">
+                <p className="entries text-reg blue">
+                  <span className="arrow ">
                     <svg
                       width="30"
                       height="30"
@@ -821,13 +835,15 @@ const CardTable = () => {
                 </span>
               </td>
 
-              <td class="table-cell text-reg">Ralph Edwards</td>
+              <td class="table-cell text-reg capitalize md-bold ">
+                Ralph Edwards
+              </td>
               <td class="table-cell">
-                <p className="state">Lagos state</p>
+                <p className="state md-bold ">Lagos state</p>
                 <span className="grey small-text">8558 Green Rd.</span>
               </td>
               <td class="table-cell">
-                <div className="highlight-purple">No Issues</div>
+                <div className="highlight-purple text-reg">No Issues</div>
               </td>
               <td class="table-cell">
                 <p className="entries">
@@ -835,9 +851,9 @@ const CardTable = () => {
                 </p>
                 <span className="grey small-text">Homogenous</span>
               </td>
-              <td class="table-cell last-col">
-                <p className="text-reg entries">
-                  <span className="arrow green">
+              <td class="table-cell last-col ">
+                <p className="text-reg entries green">
+                  <span className="arrow ">
                     <svg
                       width="20"
                       height="20"

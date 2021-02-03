@@ -145,8 +145,13 @@ td {
   display: flex;
   justify-content: space-between;
   width: 200px;
+  align-items: center;
 }
 
 .arrow {
   margin-right: 3px;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
