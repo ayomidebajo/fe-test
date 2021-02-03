@@ -1,6 +1,7 @@
 import React from "react";
 import CardsSideLeft from "./cardsSideLeft";
 import CardsTop from "./CardsTop";
+import CardTable from "./CardTable";
 
 const Dashboard = () => {
   return (
@@ -27,7 +28,12 @@ const Dashboard = () => {
         <CardsTop />
       </div>
       <div className="cards-and_table--container">
-        <CardsSideLeft />
+        <div className="">
+          <CardsSideLeft />
+        </div>
+        <div className="card-table">
+          <CardTable />
+        </div>
       </div>
     </div>
   );

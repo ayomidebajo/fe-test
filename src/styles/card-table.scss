@@ -1,0 +1,152 @@
+.table-div {
+  width: auto;
+  width: -moz-available;
+
+  width: 100%;
+  box-shadow: 0px 1px 19px 4px rgba(192, 192, 192, 0.2);
+}
+
+.border-grey {
+  border-bottom: 1px solid #e7e9eb;
+}
+
+.bordered__table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table--container {
+  padding: 5px;
+}
+
+.th {
+  background-color: #f3f6f9;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  font-size: 12px;
+  text-align: left;
+}
+
+.table-cell {
+  width: 300px;
+  padding: 1.13rem;
+}
+.table-cell-head {
+  width: 300px;
+  padding: 1.4rem;
+}
+
+.icon-table {
+  width: 100px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.4rem;
+}
+
+.checkbox {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-gap: 0.5em;
+  font-size: 2rem;
+  color: #9f9f9f;
+
+  &--disabled {
+    opacity: 0.7;
+  }
+}
+
+.checkbox__control {
+  display: inline-grid;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 3px;
+  border: 2px solid #9f9f9f;
+
+  svg {
+    transition: transform 0.1s ease-in 25ms;
+    transform: scale(0);
+    transform-origin: bottom left;
+  }
+}
+
+.checkbox__input {
+  display: grid;
+  grid-template-areas: "checkbox";
+
+  > * {
+    grid-area: checkbox;
+  }
+
+  input {
+    opacity: 0;
+    width: 1em;
+    height: 1em;
+
+    &:focus + .checkbox__control {
+      box-shadow: 0 0 0 0.05em #fff, 0 0 0.15em 0.1em #e7e9eb;
+    }
+
+    &:checked + .checkbox__control svg {
+      transform: scale(1);
+    }
+
+    &:disabled + .checkbox__control {
+      opacity: 0.7;
+    }
+  }
+}
+
+.highlight-purple {
+  width: 100px;
+  background: #f6f3ff;
+  border-radius: 13px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8c70ff;
+  font-weight: 700;
+}
+
+.highlight-orange {
+  width: 120px;
+  background: #fff6de;
+  border-radius: 13px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f4b400;
+  font-weight: 700;
+}
+
+.dot-small {
+  width: 7px;
+  height: 7px;
+  background: black;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.entries {
+  display: flex;
+  align-items: center;
+}
+
+.last-col {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.arrow {
+  margin-right: 3px;
+}

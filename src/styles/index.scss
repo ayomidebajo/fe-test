@@ -2,6 +2,7 @@
 @import "./dashboard.scss";
 @import "cards-top.scss";
 @import "./cards-side-left.scss";
+@import "./card-table.scss";
 
 * {
   box-sizing: border-box;
@@ -17,4 +18,12 @@
 
 .bold {
   font-weight: 700;
+}
+
+.text-reg {
+  font-size: 14px;
+}
+
+.text-small {
+  font-size: 12px;
 }
